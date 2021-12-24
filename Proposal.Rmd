@@ -1,0 +1,78 @@
+---
+title: "Final project proposal"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+Sys.setlocale("LC_TIME","English_United States.1252")
+```
+
+
+
+## Project proposal
+
+#### Due Thursday, November 5, 11:59 PM CT
+
+## Group 4 
+
+## Members
+
+**Kyle Yeo**  
+
+Hyun Ko  
+
+Riley Larget
+
+Winsten Coellins  
+
+
+### 1
+
+> Description of how the group will communicate and work together
+
+We've decided to meet every Tuesday 10:00am (CT).
+For the last meeting, we  met through BBCollaborate course room and we will use Zoom platform for future meetings.
+
+
+### 2 
+
+> The source of data
+
+https://www.kaggle.com/wsj/college-salaries
+
+There are three csv files in the dataset. The first file gives us the the data of salary by undergraduate major, the second file shows us the data of salary by school name and type and the last one has the data of salary by school name and the region.
+
+
+
+
+
+### 3
+
+> Research Questions
+
+Potential questions for the college data:
+
+1. Are the type of school or region/location of college related to salary? If so, which is more important?
+
+2. How does the initial salary relate to the increase in salary over time?
+
+
+
+
+### 4
+
+> A very brief summary of the methods you plan to use to address the primary questions of interest.
+
+We will visualize salaries by career stage and type of school by using box plots.
+
+We will visualize salaries by career stage and region of school by using box plots.
+
+We will visualize salaries by career stage and major by using box plots.
+
+We will visualize initial and mid-career median salaries by using scatter plots.
+
+We will make linear models for the salaries, one per category.
+
